@@ -22,6 +22,7 @@ const Board = (props) => {
                     style={{backgroundColor: props.frame[num]}}
                     className={"board__pixel"}
                     onClick={() => props.pixelClicked(num)}
+                    onMouseDown={() => props.pixelClicked(num) }
                 />
             )
         }
