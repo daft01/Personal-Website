@@ -58,7 +58,7 @@ class BoardBuilder extends Component {
 
         this.setState({
            frame: frameNum,
-           currentFrame: 
+           currentFrame: newFrame
         });
     }
 
